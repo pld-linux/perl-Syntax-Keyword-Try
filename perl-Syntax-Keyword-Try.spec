@@ -19,10 +19,8 @@ BuildRequires:	perl-Module-Build >= 4.004
 BuildRequires:	perl-devel >= 1:5.14.0
 BuildRequires:	rpm-perlprov >= 4.1-13
 BuildRequires:	rpmbuild(macros) >= 1.745
-%if %{with tests}
-BuildRequires:	perl-Test-Simple >= 0.88
+%{?with_tests:BuildRequires:	perl-Test-Simple >= 0.88}
 BuildRequires:	perl-XS-Parse-Keyword >= 0.06
-%endif
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
