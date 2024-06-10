@@ -7,19 +7,19 @@
 Summary:	Syntax::Keyword::Try - a try/catch/finally syntax for Perl
 Summary(pl.UTF-8):	Syntax::Keyword::Try - składnia try/catch/finally dla Perla
 Name:		perl-Syntax-Keyword-Try
-Version:	0.28
-Release:	2
+Version:	0.29
+Release:	1
 # same as perl 5
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
-Source0:	http://www.cpan.org/modules/by-module/Syntax/%{pdir}-%{pnam}-%{version}.tar.gz
-# Source0-md5:	54450a484653beb6b44d8cb9396dbf71
+Source0:	https://www.cpan.org/modules/by-module/Syntax/%{pdir}-%{pnam}-%{version}.tar.gz
+# Source0-md5:	ab2b62f3fea1758b9fe7ba031f034864
 URL:		https://metacpan.org/dist/Syntax-Keyword-Try
 BuildRequires:	perl-Module-Build >= 4.004
 BuildRequires:	perl-devel >= 1:5.14.0
 BuildRequires:	rpm-perlprov >= 4.1-13
 BuildRequires:	rpmbuild(macros) >= 1.745
-%{?with_tests:BuildRequires:	perl-Test-Simple >= 0.88}
+%{?with_tests:BuildRequires:	perl-Test2-Suite}
 BuildRequires:	perl-XS-Parse-Keyword >= 0.06
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
