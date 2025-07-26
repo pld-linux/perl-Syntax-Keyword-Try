@@ -8,7 +8,7 @@ Summary:	Syntax::Keyword::Try - a try/catch/finally syntax for Perl
 Summary(pl.UTF-8):	Syntax::Keyword::Try - składnia try/catch/finally dla Perla
 Name:		perl-Syntax-Keyword-Try
 Version:	0.30
-Release:	1
+Release:	2
 # same as perl 5
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
